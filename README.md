@@ -150,8 +150,8 @@ We firstly calculated whether each of the above conditions were present for each
  </tr></thead>
 <tbody>
  <tr>
- <td class="tg-subhead">Multimorbidity Criteria</td>
- <td class="tg-subhead">Generated Variable Name</td>
+ <th class="tg-subhead">Multimorbidity Criteria</td>
+ <th class="tg-subhead">Generated Variable Name</td>
  </tr>
  <tr>
  <td class="tg-0lax">Respondent has two or more long-term health conditions</td>
