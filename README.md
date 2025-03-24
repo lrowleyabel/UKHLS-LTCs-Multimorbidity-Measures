@@ -4,12 +4,13 @@ This code produces indicators for a number of long-term health conditions as wel
 
 This was produced by a team at the University of Edinburgh, as part of the project Artificial Intelligence and Multimorbidity: Clustering in Individuals, Space and Clinical Context (AIM-CISC), funded by National Institute for Health Research (NIHR) grant NIHR202639. The code was originally produced for the paper [Neighbourhood social cohesion, loneliness and multimorbidity: Evidence from a UK longitudinal panel study](https://doi.org/10.1016/j.healthplace.2025.103414). If you use this code, please cite the paper.
 
+<br>
 <p align="center">
   <img src="Assets/aim_cisc_logo.png" alt="AIM-CISC Logo" width="25%">
   <img src="https://img.spacergif.org/spacer.gif" width="40" height="1">
   <img src="Assets/nihr_logo.png" alt="NIHR Logo" width="40%">
 </p>
-
+<br><br>
 
 
 ## Details of Long-Term Health Conditions and Multimorbidity Variables
