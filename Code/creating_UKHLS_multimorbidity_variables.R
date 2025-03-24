@@ -281,12 +281,12 @@ new_counts<- new_counts%>%
          p_mm = ifelse(physical_count>=2,1,0),
          m_mm = ifelse(mental_count>=2,1,0),
          pm_mm = ifelse(physical_count>=1 & mental_count>=1,1,0),
-         bs2_mm = ifelse(distinct_icds>=2,1,0),
+         bs_mm2 = ifelse(distinct_icds>=2,1,0),
          mm3 = ifelse(condition_count>=3,1,0),
          p_mm3 = ifelse(physical_count>=3,1,0),
          m_mm3 = ifelse(mental_count>=3,1,0),
          pm_mm3 = ifelse(physical_count>=1 & mental_count>=1 & (physical_count + mental_count)>=3,1,0),
-         bs3_mm = ifelse(distinct_icds>=3,1,0))
+         bs_mm3 = ifelse(distinct_icds>=3,1,0))
 
 
 # Create wide format dataframe with indicators of whether respondent has each of the grouped conditions
@@ -441,12 +441,12 @@ cont_counts<- cont_counts%>%
          p_mm = ifelse(physical_count>=2,1,0),
          m_mm = ifelse(mental_count>=2,1,0),
          pm_mm = ifelse(physical_count>=1 & mental_count>=1,1,0),
-         bs2_mm = ifelse(distinct_icds>=2,1,0),
+         bs_mm3 = ifelse(distinct_icds>=2,1,0),
          mm3 = ifelse(condition_count>=3,1,0),
          p_mm3 = ifelse(physical_count>=3,1,0),
          m_mm3 = ifelse(mental_count>=3,1,0),
          pm_mm3 = ifelse(physical_count>=1 & mental_count>=1 & (physical_count + mental_count)>=3,1,0),
-         bs3_mm = ifelse(distinct_icds>=3,1,0))
+         bs_mm3 = ifelse(distinct_icds>=3,1,0))
 
 
 # Create wide-format dataframe with variables indicating whether each condition is present for each respondent
@@ -461,6 +461,15 @@ colnames(cont_individual_conditions)<- colnames(cont_individual_conditions)%>%
 ## Join calculated variables for new and continuing respondents
 mm_vars<- rbind(new_counts, cont_counts)
 condition_vars<- rbind(new_individual_conditions, cont_individual_conditions)
+
+## Rename some of the condition variables
+condition_vars<- condition_vars%>%
+  rename(coronary_heart_disease = chd,
+         hypertension = high_blood_pressure_hypertension,
+         diabetes = type_1_or_2_diabetes,
+         hypothyroidism = hypothyroidism_or_an_under_active_thyroid,
+         eating_disorder = an_eating_disorder,
+         liver_condition = any_kind_of_liver_condition)
 
 ## Merge new variables into main dataframe
 df_w10<- left_join(df_w10, mm_vars, by = "pidp")
