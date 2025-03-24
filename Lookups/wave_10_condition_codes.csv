@@ -1,0 +1,39 @@
+Variable,Label,Type,ICD_10_Chapter,Grouped_Label,Inclusion
+hcondcode1,Asthma,Physical,10,Asthma,Yes
+hcondcode3,Congestive heart failure,Physical,9,Congestive heart failure,Yes
+hcondcode4,Coronary heart disease,Physical,9,CHD,Yes
+hcondcode5,Angina,Physical,9,CHD,Yes
+hcondcode6,Heart attack or myocardial infarction,Physical,9,CHD,Yes
+hcondcode7,Stroke,Physical,9,Stroke,Yes
+hcondcode8,Emphysema,Physical,10,COPD,Yes
+hcondcode10,Hypothyroidism or an under-active thyroid,Physical,4,Hypothyroidism or an under-active thyroid,Yes
+hcondcode11,Chronic bronchitis,Physical,10,COPD,Yes
+hcondcode12,Any kind of liver condition,Physical,11,Any kind of liver condition,Yes
+hcondcode15,Epilepsy,Physical,6,Epilepsy,Yes
+hcondcode16,High blood pressure/hypertension,Physical,9,High blood pressure/hypertension,Yes
+hcondcode19,Multiple Sclerosis,Physical,6,Multiple Sclerosis,Yes
+hcondcode21,COPD (Chronic Obstructive Pulmonary Disease),Physical,10,COPD,Yes
+hcondcode23,Osteoarthritis,Physical,13,Osteoarthritis,Yes
+hcondcode24,Rheumatoid arthritis,Physical,13,Rheumatoid arthritis,Yes
+hcondcode25,Other arthritis,Physical,13,Other arthritis,Yes
+hcondcode26,Bowel/colorectal cancer,Physical,2,Bowel/colorectal cancer,Yes
+hcondcode27,Lung cancer,Physical,2,Lung cancer,Yes
+hcondcode28,Breast cancer,Physical,2,Breast cancer,Yes
+hcondcode29,Prostate cancer,Physical,2,Prostate cancer,Yes
+hcondcode30,Liver cancer,Physical,2,Liver cancer,Yes
+hcondcode31,Skin cancer or melanoma,Physical,2,Skin cancer or melanoma,Yes
+hcondcode32,Other cancer,Physical,2,Other cancer,Yes
+hcondcode33,Type 1 diabetes,Physical,4,Type 1 or 2 Diabetes,Yes
+hcondcode34,Type 2 diabetes,Physical,4,Type 1 or 2 Diabetes,Yes
+hcondcode35,Gestational diabetes/during pregnancy,Physical,NA,Gestational Diabetes,No
+hcondcode36,Other diabetes,Physical,4,Other diabetes,Yes
+hcondcode37,Anxiety,Mental,5,Anxiety,Yes
+hcondcode38,Depression,Mental,5,Depression,Yes
+hcondcode39,Psychosis or schizophrenia,Mental,5,Psychosis or schizophrenia,Yes
+hcondcode40,Bipolar disorder or manic depression,Mental,5,Bipolar disorder or manic depression,Yes
+hcondcode41,An eating disorder,Mental,5,An eating disorder,Yes
+hcondcode42,Post-traumatic stress disorder,Mental,5,Post-traumatic stress disorder,Yes
+hcondcode43,"Other emotional, nervous or psychiatric problem",Mental,5,"Other emotional, nervous or psychiatric problem",Yes
+hcondcode96,None of these,NA,NA,None of these,No
+hcondcode97,Other long standing/chronic condition,NA,NA,Other long standing/chronic condition,Yes
+hcondcode20,H.I.V.,Physical,1,H.I.V.,Yes
