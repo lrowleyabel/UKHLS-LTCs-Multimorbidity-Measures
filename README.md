@@ -141,7 +141,7 @@ The code produces indicators of whether individuals have each of a set of long-t
     </tbody>
 </table>
 
-We firstly calculated whether each of the above conditions were present for each individual, by checking whether they had ever been diagnosed with the condition and whether they reported still having the condition at the time of interview. Based on this, six different binary indicators of multimorbidity were then generated, according to the criteria set out in Table 2. All of these variables are coded such that 0 = not multimorbid, 1 = multimorbid. Body systems are defined here as ICD-10 Chapters.
+We firstly calculated whether each of the above conditions were present for each individual, by checking whether they had ever been diagnosed with the condition and whether they reported still having the condition at the time of interview. Based on this, eight different binary indicators of multimorbidity were then generated, according to the criteria set out in Table 2. All of these variables are coded such that 0 = not multimorbid, 1 = multimorbid. Body systems are defined here as ICD-10 Chapters.
 
 
 <table class="tg"><thead>
